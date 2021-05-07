@@ -36,3 +36,4 @@ jobs:
           src: ghcr.io/violet-evergardenz/bookinfo-details:uat
           dst: |
             ghcr.io/violet-evergardenz/bookinfo-details:${{needs.git-tag.outputs.tag-version}}
+            
